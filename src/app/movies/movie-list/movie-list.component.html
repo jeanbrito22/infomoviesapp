@@ -1,0 +1,3 @@
+<ion-list  *ngFor="let movie of movies">
+    <im-movie [resourceImage]="movie.poster_path" [routerLink]="['/movie/', movie.id]">{{ movie.title }}</im-movie>
+</ion-list>

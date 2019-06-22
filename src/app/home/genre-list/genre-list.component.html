@@ -1,0 +1,5 @@
+<ion-list *ngFor="let genre of genres">
+  <im-genre (click)="getGenreName(genre.name)" [routerLink]="['/movies/', genre.id]">
+    {{ genre.name }}
+  </im-genre>
+</ion-list>

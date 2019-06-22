@@ -1,0 +1,17 @@
+<ion-item lines="none" button>
+  
+  <ion-ripple-effect type="unbounded"></ion-ripple-effect>
+
+  <ion-thumbnail slot="start">
+    <ion-img [src]="'http://image.tmdb.org/t/p/w200' + resourceImage"></ion-img>
+  </ion-thumbnail>
+
+  <div class="item-note" text-center>
+    <ng-content ></ng-content>
+  </div>
+
+  <ion-icon text-right style="color: black" 
+    name="md-arrow-dropright-circle" slot="end">
+  </ion-icon>
+
+</ion-item>
