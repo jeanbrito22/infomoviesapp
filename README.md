@@ -1,2 +1,2 @@
 # Info Movies App
-An Ionic project aimed at informing about new films by their genre.
+This is an Ionic project created to catch info about movies from the https://api.themoviedb.org API and display it to the user.
